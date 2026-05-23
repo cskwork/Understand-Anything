@@ -122,7 +122,7 @@ Understand Anything は [Claude Code Plugin](https://code.claude.com/docs/en/plu
 # 日本語でコンテンツを生成（ナレッジグラフのノード説明とダッシュボードUI）
 /understand --language ja
 
-# サポート言語：en（デフォルト）、zh、zh-TW、ja、ko、ru
+# サポート言語：ko（デフォルト）、en、zh、zh-TW、ja、ru
 ```
 
 `--language` パラメータは以下に影響します：

@@ -115,13 +115,16 @@ Understand Anything은 [Claude Code Plugin](https://code.claude.com/docs/en/plug
 
 멀티 에이전트 파이프라인이 프로젝트를 스캔하고, 모든 파일, 함수, 클래스, 의존성을 추출한 뒤, `.understand-anything/knowledge-graph.json`에 지식 그래프를 저장합니다.
 
-**로컬라이즈된 출력:** `--language`를 사용하여 원하는 언어로 내용을 생성:
+**로컬라이즈된 출력:** 한국어가 기본 출력 언어입니다. 다른 지원 언어로 내용을 생성하려면 `--language`를 사용하세요:
 
 ```bash
-# 한국어로 내용 생성 (지식 그래프 노드 설명과 대시보드 UI)
-/understand --language ko
+# 기본값으로 한국어 내용 생성 (지식 그래프 노드 설명과 대시보드 UI)
+/understand
 
-# 지원 언어: en(기본값), zh, zh-TW, ja, ko, ru
+# 필요하면 출력 언어 변경
+/understand --language en
+
+# 지원 언어: ko(기본값), en, zh, zh-TW, ja, ru
 ```
 
 `--language` 매개변수는 다음에 영향합니다:
